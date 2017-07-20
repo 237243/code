@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .box {
+            color: white;
+            width: 284px;
+            height: 350px;
+            box-sizing: border-box;
+            background-color: rgba(83, 91, 91, 0.93);
+        }
+        .head{
+            font-size: 17px;
+            margin-bottom: 20px;
+            margin:10px;
+            font-weight: bolder;
+        }
+        .div1{
+            font-size: 12px;
+            margin-top: 6px;
+            display: flex;
+            justify-content: space-around;
+            margin:10px;
+        }
+        .div1:after{
+            display: block;
+            clear: both;
+            content: "";
+        }
+        .right{
+            float: right;
+        }
+        .msg {
+            background: white;
+            line-height: 42px;
+            margin-top: 6px;
+            width:250px;
+            margin: 0 auto;
+        }
+        input{
+            float: left;
+            line-height: 42px;
+            width: 150px;
+            padding-left: 10px;
+        }
+        p{
+            float: right;
+            color: #808080;
+        }
+        p:nth-of-type(1){
+            width: 44px;
+            text-align: center;
+            border-left: solid 1px #808080;
+        }
+        p:nth-of-type(2){
+            padding-right: 10px;
+        }
+        .msg:after{
+            display: block;
+            clear: both;
+            content: "";
+        }
+        .sou{
+            width:260px;
+            background-color: rgba(2, 149, 239, 0.93);
+            text-align: center;
+            margin: 0 auto;
+            margin-top:20px;
+            height:40px;
+            line-height: 30px;
+        }
+        .bottom{
+            width:284px;
+            font-size: 10px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<body>
+<div class="box">
+    <div class="head">快速搜索消费贷款</div>
+    <div class="div1">
+        <span>贷款金额</span>
+        <span class="right">不足一万用小数点表示</span>
+    </div>
+    <div class="msg">
+        <input type="text" value="30" />
+        <p>▼</p>
+        <p>万元</p>
+    </div>
+    <h3>贷款期货</h3>
+    <div class="msg">
+        <input type="text" value="18" />
+        <p>▼</p>
+        <p>个月</p>
+    </div>
+    <div class="sou">搜索一下</div>
+    <div class="bottom">9164种信贷产品 2000家银行 1403家小贷公司</div>
+</div>
+</body>
+</html>
